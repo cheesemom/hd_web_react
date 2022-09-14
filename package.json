@@ -1,5 +1,9 @@
 {
   "name": "hyundai_react",
   "version": "0.1.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  }
 }

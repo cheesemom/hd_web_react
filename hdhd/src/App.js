@@ -6,11 +6,9 @@ const App = () => {
   return (
     <div className="Wrap">
       <Header />
-
       <main>
         <MainVisual />
       </main>
-
     </div>
   );
 }

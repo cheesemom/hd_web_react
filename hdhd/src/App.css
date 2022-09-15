@@ -14,14 +14,14 @@
 
 
 
-/* cbtn, csc */
+/* cbtn, CSC */
 .cbtn {
   display: inline-block;
   padding: 15px 25px;
   border: 1px solid var(--mc);
   color: var(--mc);
   font-size: 13px;
-  background: var(--lc);
+  background: #ffffff;
 }
 
 .cbtn::after {
@@ -92,7 +92,7 @@
 
 /* Header */
 .Header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -112,7 +112,6 @@
   color: var(--dc);
   line-height: 80px;
 }
-
 
 .Header .hd_wrap:hover {
   background: var(--lc);
@@ -391,9 +390,6 @@
   margin: 0 0 0 800px;
 }
 
-
-
-/* MainContent */
 .MainContent .inner {
   display: flex;
 }
@@ -500,7 +496,6 @@
 .Portfolio .right_slide figure {
   padding: 0 20px 0 0;
 }
-
 
 .Portfolio .right {
   display: flex;

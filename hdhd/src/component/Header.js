@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import TopBanner from './TopBanner';
 
-
 const NAVLINK = [
     { id: 1, menu: "기업정보", link: '/' },
     { id: 2, menu: "솔루션", link: '/' },
@@ -9,7 +8,6 @@ const NAVLINK = [
     { id: 4, menu: "혁신기술", link: '/' },
     { id: 5, menu: "고객지원", link: '/' },
 ]
-
 
 const Header = () => {
     const [TG, setTG] = useState([false, false]);
@@ -19,15 +17,14 @@ const Header = () => {
             let sct = window.scrollY;
             sct > 0
                 ? HL.current.classList.add('on')
-                : HL.current.classList.reomove('on')
-            console.log(HL.current, Window.scrollY)
+                : HL.current.classList.remove('on')
         })
     }, [])
     //const [TS, setTS] = useState(false);
     return (
         <header className="Header" ref={HL}>
             <TopBanner />
-            <div class="hd_wrap">
+            <div className="hd_wrap">
                 <h1>
                     <a href="/" >
                         현대엘리베이트
@@ -46,22 +43,19 @@ const Header = () => {
                         }
                     </ul>
                 </nav>
-
                 <div className="top_service">
                     <ul className="project">
                         <li><a href="#!">주요프로젝트</a></li>
                         <li><a href="#!">IR</a></li>
                     </ul>
-
-                    <div className={'lang ' + (TG ? 'on' : '')}>
-                        <strong onClick={() => setTG(!TG)}><i className="xi-globus"></i> KOR <i className="xi-angle-down arrow"></i></strong>
+                    <div className={'lang ' + (TG[0] ? 'on' : '')}>
+                        <strong onClick={() => setTG([!TG[0], false])}><i className="xi-globus"></i> KOR <i className="xi-angle-down arrow"></i></strong>
                         <ul className="lang_box">
                             <li><a href="#!">KOR</a></li>
                             <li><a href="#!">ENG</a></li>
                             <li><a href="#!">CHN</a></li>
                         </ul>
                     </div>
-
                     <div className={'top_search ' + (TG[1] ? 'on' : '')}>
                         <strong onClick={() => setTG([false, !TG[1]])}><i className="xi-search"></i></strong>
                         <div className="search_box">

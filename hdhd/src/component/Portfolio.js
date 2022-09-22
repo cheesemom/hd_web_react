@@ -47,7 +47,7 @@ const Portfolio = () => {
                                     return (
                                         <figure key={building.id}>
                                             <div className="box">
-                                                <img src={process.env.PUBLIC_URL + "/assets/images/main_m0" + building.id + ".jpg"} alt="" />
+                                                <img src={process.env.PUBLIC_URL + "/assets/image/main_m0" + building.id + ".jpg"} alt="" />
                                             </div>
                                             <div className='des'>{building.title}</div>
                                         </figure>
@@ -76,7 +76,7 @@ const Portfolio = () => {
                                     return (
                                         <figure key={building.id}>
                                             <div className="box">
-                                                <img src={process.env.PUBLIC_URL + "/assets/images/main_m0" + building.id + ".jpg"} alt="" />
+                                                <img src={process.env.PUBLIC_URL + "/assets/image/main_m0" + building.id + ".jpg"} alt="" />
                                             </div>
                                             <div className='des'>{building.title}</div>
                                         </figure>

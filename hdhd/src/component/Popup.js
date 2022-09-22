@@ -47,7 +47,7 @@ const Popup = () => {
         <Pop className={(cookie.pop || TG) && 'on'} ref={pop}>
             <div className="popbox">
                 <div>
-                    <img src={process.env.PUBLIC_URL + '/assets/images/main_news02.jpg'} alt="" />
+                    <img src={process.env.PUBLIC_URL + '/assets/image/main_news01.jpg'} alt="" />
                 </div>
                 <div className="bottom">
                     <input type='checkbox' onChange={

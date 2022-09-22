@@ -17,7 +17,7 @@ const News = () => {
                             <figure key={news.id}>
                                 <a href={news.link}>
                                     <div className="box">
-                                        <img src={process.env.PUBLIC_URL + news.src} alt={news.title} />
+                                        <img src={process.env.PUBLIC_URL + "/assets/image/main_news0" + news.id + ".jpg"} alt="" />
                                     </div>
                                     <strong>{news.category}</strong>
                                     <div className="title">{news.title}</div>

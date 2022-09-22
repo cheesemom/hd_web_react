@@ -122,16 +122,16 @@
   font-size: 0;
   width: 188px;
   height: 22px;
-  background: url(../public/assets/images/logo_w.png);
+  background: url(../public/assets/image/logo_w.png);
   vertical-align: middle;
 }
 
 .Header .hd_wrap:hover h1 a {
-  background: url(../public/assets/images/logo.png);
+  background: url(../public/assets/image/logo.png);
 }
 
 .Header.on .hd_wrap h1 a {
-  background: url(../public/assets/images/logo.png);
+  background: url(../public/assets/image/logo.png);
 }
 
 .Header .top_service {
@@ -279,15 +279,15 @@
 }
 
 .MainVisual .itm01 {
-  background-image: url(../public/assets/images/main_visual01.jpg);
+  background-image: url(../public/assets/image/main_visual01.jpg);
 }
 
 .MainVisual .itm02 {
-  background-image: url(../public/assets/images/main_visual02.jpg);
+  background-image: url(../public/assets/image/main_visual02.jpg);
 }
 
 .MainVisual .itm03 {
-  background-image: url(../public/assets/images/main_visual03.jpg);
+  background-image: url(../public/assets/image/main_visual03.jpg);
 }
 
 .MainVisual figure .inner {
@@ -430,7 +430,7 @@
 }
 
 .Portfolio {
-  background: url(../public/assets/images/section1_bg.jpg) repeat-x;
+  background: url(../public/assets/image/section1_bg.jpg) repeat-x;
 }
 
 .Portfolio h2 {
@@ -628,7 +628,7 @@
 }
 
 .Promotion {
-  background: url(../public/assets/images/section4_bg.jpg) no-repeat left bottom;
+  background: url(../public/assets/image/section4_bg.jpg) no-repeat left bottom;
 }
 
 .Promotion .movie {

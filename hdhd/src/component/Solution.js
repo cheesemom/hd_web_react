@@ -34,7 +34,7 @@ const Solution = () => {
                         SOLUTION.map((img, idx) => {
                             return (
                                 <figure key={img.id} className={slideNum === idx ? 'on' : ''}>
-                                    <img src={process.env.PUBLIC_URL + "/assets/images/main_s0" + img.id + ".jpg"} alt="" />
+                                    <img src={process.env.PUBLIC_URL + "/assets/image/main_s0" + img.id + ".jpg"} alt="" />
                                 </figure>
                             )
                         })
